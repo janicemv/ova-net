@@ -6,6 +6,8 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --font-vollkorn: "Vollkorn", serif;
+    --font-vollkorn-sc: "Vollkorn SC", serif;
     --color-green-400: oklch(0.792 0.209 151.711);
     --color-green-500: oklch(0.723 0.219 149.579);
     --color-blue-700: oklch(0.488 0.243 264.376);
@@ -60,7 +62,7 @@
     --tracking-tight: -0.025em;
     --leading-tight: 1.25;
     --radius-lg: 0.5rem;
-    --default-font-family: var(--font-sans);
+    --default-font-family: var(--font-vollkorn);
     --default-mono-font-family: var(--font-mono);
   }
 }
@@ -1486,4 +1488,51 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+
+.vollkorn-sc-regular {
+  font-family: "Vollkorn SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vollkorn-sc-semibold {
+  font-family: "Vollkorn SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.vollkorn-sc-bold {
+  font-family: "Vollkorn SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.vollkorn-sc-black {
+  font-family: "Vollkorn SC", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-vollkorn {
+    font-family: var(--font-vollkorn);
+    font-optical-sizing: auto;
+  }
+
+  .font-wght-regular {
+    font-weight: 400;
+  }
+
+  .font-wght-semibold {
+    font-weight: 600;
+  }
+
+  .font-wght-bold {
+    font-weight: 700;
+  }
+
+  .font-wght-black {
+    font-weight: 900;
+  }
 }

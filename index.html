@@ -6,14 +6,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <script src="./src/output.css"></script>
 
     <title>OvaNet: Global Ovarian Tissue Cryopreservation Network</title>
 
     <!-- Meta SEO -->
     <meta name="title" content="OvaNet: Global Ovarian Tissue Cryopreservation Network">
-    <meta name="description" content="A Global Consortium for Ovarian Tissue Cryopreservation">
-    <meta name="robots" content="ovary, fertility, cryopreservation, ovarian tissue, OVANET, Ova-Net, OVA-NET, OvaNet">
+    <meta name="description" content="Global consortium of centers specializing in 
+    Ovarian Tissue Cryopreservation">
+    <meta name="robots" content="ovary, fertility, cryopreservation, ovarian tissue, OvaNet, OvaNet, OvaNet, OVANET">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
     <meta name="author" content="Themesberg">
@@ -30,9 +44,9 @@
     <meta name="twitter:creator" content="@themesberg" /> -->
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
@@ -45,18 +59,62 @@
         <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" class="flex items-center">
-                    <img src="./images/ovanet_logo.png" class="h-6 mr-3 sm:h-9" alt="OVA-NET Logo" />
-                    <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">OVA-NET</span> -->
+                    <img src="./images/logo/OvaNet_full_color.svg" class="h-6 mr-3 sm:h-9" alt="OvaNet Logo" />
+                    <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">OvaNet</span> -->
                 </a>
                 <div class="flex items-center lg:order-2">
                     <!-- <div class="hidden mt-2 mr-4 sm:inline-block">
-                        <a class="github-button" href="https://github.com/janicemv/ova-net" data-size="large"
+                        <a class="github-button" href="https://github.com/janicemv/OvaNet" data-size="large"
                             data-icon="octicon-star" data-show-count="true"
                             aria-label="Star themesberg/landwind on GitHub">Star</a>
                     </div> -->
                     <a href="#"
-                        class="text-white bg-pink-light hover:bg-pink-medium focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-pink-light focus:outline-none dark:focus:ring-purple-800">Join
+                        class="overlock-sc-regular text-white bg-pink-light hover:bg-pink-medium focus:ring-4 focus:ring-purple-300 font-large rounded-lg text-md px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-pink-light focus:outline-none dark:focus:ring-purple-800">Join
                         Us</a>
+                    <button data-collapse-toggle="mobile-menu-2" type="button"
+                        class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="mobile-menu-2" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="/"
+                                class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About
+                                Us</a>
+                        </li>
+                        <li>
+                            <a href="#why"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Why
+                                OvaNet</a>
+                        </li>
+                        <li>
+                            <a href="#iniciative"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Iniciative</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                        </li>
+
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -67,12 +125,15 @@
         <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div class="mr-auto place-self-center lg:col-span-7">
                 <h1
-                    class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-blue-dark dark:text-white">
+                    class="overlock-sc-regular max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl text-blue-dark dark:text-white">
                     OvaNet</h1>
-                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">A
-                    Global Consortium for Ovarian Tissue Cryopreservation</p>
+                <p
+                    class="overlock-sc-regular max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    A
+                    Global consortium of centers specializing in
+                    Ovarian Tissue Cryopreservation</p>
                 <!-- <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                    <a href="https://github.com/janicemv/ova-net" target="_blank"
+                    <a href="https://github.com/janicemv/OvaNet" target="_blank"
                         class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                         <svg class="w-4 h-4 mr-2 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) 
@@ -83,18 +144,20 @@
                 </div>-->
             </div>
             <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                <img src="https://placehold.co/650x508/A9D1E7/FFF" alt="hero image">
+                <img class="h-auto max-w-lg mask-image-radial hero" src="./images/img1.jpeg" alt="hero image">
             </div>
         </div>
     </section>
     <!-- End block -->
     <!-- Start block -->
-    <section class="bg-gray-50 dark:bg-gray-800">
+    <section id="about" class="bg-gray-50 dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
             <!-- Row -->
             <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-blue-dark dark:text-white">About Us</h2>
+                    <h2
+                        class="overlock-sc-regular mb-4 text-3xl font-extrabold tracking-tight text-blue-dark dark:text-white">
+                        About Us</h2>
                     <p class="mb-8 font-light lg:text-xl">OvaNet is a global initiative uniting experts in ovarian
                         tissue cryopreservation to standardize procedures, improve outcomes, and provide fertility
                         preservation solutions worldwide.</p>
@@ -158,19 +221,25 @@
                                 with leading fertility organizations</span>
                         </li>
                     </ul>
-                    <p class="mb-8 font-light lg:text-xl">Our goal for OVA-NET is to make sure that we provide OTC to the patients who benefit the most, and that we make the procedures as effective as possible.
+                    <p class="mb-8 font-light lg:text-xl">Our goal for OvaNet is to make sure that we provide OTC to the
+                        patients who benefit the most, and that we make the procedures as effective as possible.
                     </p>
                 </div>
-                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="https://placehold.co/730x531/3A77B4/FFF"
-                    alt="dashboard feature image">
+                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex h-auto max-w-lg feat" src="./images/img2.jpg"
+                    alt="Worldmap">
             </div>
+            </div>
+        </section>
+        <section id="why" class="bg-gray-50 dark:bg-gray-800">
             <!-- Row -->
-            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="https://placehold.co/730x531/3A77B4/FFF"
-                    alt="feature image 2">
+            <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            <div id="why" class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex feat" src="./images/img3.jpg" alt="lab">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                    <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-blue-dark dark:text-white">The Need for
-                        OVA-NET</h2>
+                    <h2
+                        class="overlock-sc-regular mb-4 text-3xl font-extrabold tracking-tight text-blue-dark dark:text-white">
+                        The Need for
+                        OvaNet</h2>
                     <p class="mb-8 font-light lg:text-xl">For the past 25 years, various centers worldwide have
                         conducted OTC and ovarian tissue transplantation (OTT) with their own protocols. However, there
                         is no standardization in:</p>
@@ -243,56 +312,232 @@
     </section>
     <!-- End block -->
     <!-- Start block -->
-    <section class="bg-white dark:bg-gray-900">
+    <section id="iniciative" class="bg-white dark:bg-gray-900">
         <div
             class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div class="col-span-2 mb-8">
-                <p class="text-lg font-medium text-blue-dark dark:text-blue-medium">A Global Iniciative</p>
-                <h2 class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-blue-medium md:text-3xl dark:text-white">
+                <p class="overlock-sc-regular text-lg font-medium text-blue-dark dark:text-blue-medium">A Global
+                    Iniciative</p>
+                <h2
+                    class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-blue-medium md:text-3xl dark:text-white">
                     It is time to unite all our knowledge, expertise, and experience!</h2>
                 <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">It is crucial that we involve both
-                    clinical professionals and laboratory scientists in OVA-NET, as the initiative aims to address
+                    clinical professionals and laboratory scientists in OvaNet, as the initiative aims to address
                     numerous aspects of ovarian tissue cryopreservation and transplantation from both perspectives.
                 </p>
             </div>
             <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                 <div>
-                    <svg class="w-10 h-10 mb-2 text-blue-medium md:w-12 md:h-12 dark:text-blue-medium" fill="currentColor" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> 
-                            <path d="M93.8,114.6c-4.7,1.1-1.7,0.9-5.6,1.4C71.5,119.6,83.9,122.8,93.8,114.6z M387.5,121.3c1.2-0.8,5.4-4.9-7.7-8.9 c0.8,4.1-2.7,3.7-2.7,6c9.7,8.8,13.7,24.1,26.1,27.3C405.6,134.7,392.2,129.3,387.5,121.3z M84.9,111.4c1.5,8.9,8.2-9.4,8.3-15.9 c-2.6,1.5-5.2,3-7.9,4.2c6.3,3.2,0.8,6.6-6,11.7C65.5,128.6,92.2,98,84.9,111.4z M256,0C114.6,0,0,114.6,0,256 c0,141.3,114.6,256,256,256c141.4,0,256-114.7,256-256C512,114.6,397.4,0,256,0z M262.8,85.8l1.2,0.4c-4.8,6.2,25,24.3,3.6,25.8 c-20,5.7,8.4-5.2-7.1-3.3C268.7,97.3,254,97.1,262.8,85.8z M141.4,102.2c-7.2-6-29.8,8.2-21.9,4.8c19.6-7.7,1.3,0.8,5.9,10 c-4.2,8.7-1.4-8.6-11.8,1.7c-7.5,1.7-25.9,18.7-23.6,13.5c-0.6,8.1-21.9,17.7-24.8,31.2c-7,18.7-1.7-0.7-3-8 c-10-12.7-28.2,21.5-22.8,35c9.1-16,8.4-1.7,1.8,5.4c6.7,12.3-6.1,28.3,6.6,37.4c5.6,1.3,16.8-18.8,11.9,2.1 c3.4-18.1,9.4,4.3,19.1-0.7c0.6,9.5,6.5,5.1,7.8,16.6c16.2-1.2,31,26.2,11.7,31.4c2.9-0.8,8.6,4.3,15.2,0.4 c11.2,8.9,40.7,10,41.5,32c-20.3,9.7-5,36.3-22.6,45.8c-20.2-3-6.9,24.9-15.4,21.7c3.4,20.1-20.4-2.6-11.2,8.5 c16.9,10.4-7.4,8.3,0.2,15.9c-8.5-1.8,5.3,15.8,7.6,22.3c12.2,19.8-10.5-4.4-17.2-11c-6.4-12.8-21.5-37.3-25.7-57.4 c-2.4-29.2-25-48.8-30.2-77.3c-5.2-15.9,14.3-41.4,3.8-50.3c-9.1-7.1-5.4-31.4-10.8-44.2c13.5-58.5,56.4-107.8,107.9-137 c-5.3,3.9,30.3-10.1,26.2-6.7c-1.1,2.5,20.8-9.5,34-11.3c-1.4,0.2-34.3,12-25.2,10.4c-14.1,6.9-1.4,3,5.6-0.5 c-14,10.3-24.8,7.4-40.7,16.5c-16,4.2-12.7,20.8-24.1,29.1c6.7,1.2,23.5-17.3,33.3-23.8c22.5-10.9-11.4,19.8,10,6.6 c-7.2,6.7-5.7,17.4-10.1,20.4C148.2,92.1,159.1,97.9,141.4,102.2z M176.4,56.2c-2.3,3.1-5.5,9.8-7.4,5.7c-2.6,1.3-3.6,6.9-8.5,2.4 c2.9-2.1,5.9-7.1,0.2-4c2.6-2.8,25.8-10.7,24.5-13.7c4.1-2.6,3.7-3.9-1-2.3c-2.4-0.8,5.7-7.6,16.5-8.5c1.5,0,2.1,1-0.6,0.7 c-16.3,5-9.3,3.6,1.7,0c-4.2,2.4-7.1,3.1-7.8,4.2c11-4-0.6,2.9,1.9,2.4c-3.1,1.6,0.5,2.1-5.5,4.4c1.1-0.9-9.8,6.5-3.3,4.3 C180.8,57.8,178,57.9,176.4,56.2z M186,70.5c0.2-9.6,14-15.7,12.3-16.2c17-8-5.9,0.3,7.5-6.9c5-0.5,15.6-16.5,30.3-17.5 c16.2-4.9,8.7,0.3,20.7-4.3l-2.4,2c-2.1,0.3,0.5,4-7.1,9.6c-0.8,8.7-14.5,4.7-7.7,14c-4.4-6.3-11-0.2-2.7,0.4 c-8.9,6.8-29.6,8-39.5,19.3C191,80.1,185.1,77.2,186,70.5z M257.1,102.5c-6.8,16.4-13.4-2.4-1.4-5.4 C258.7,98.7,259.9,99.2,257.1,102.5z M231.5,69.7c-2-7.4-0.4-3.5,11.5-7C251.2,68.6,235.7,72.5,231.5,69.7z M417.7,363.2 c-9.4-16.2,11.4-31.2,18.4-44.8C435.2,334.3,433.2,350,417.7,363.2z M453.1,178.1c-10.2,0.8-19.4,3.2-28.6-2.6 c-21.2-23.2,3.9,26.2,10.9,6c25.2,9.6-0.4,51-16.3,46.7c-8.9-19.2-19.9-40.3-39.3-49.7c14.9,16.5,22.3,36.8,38.3,51.7 c1.1,20.8,22.2-7.6,20.9,8.5c2,27.7-31.3,44.3-25.5,72.1c12.4,25.3-23.9,29.9-19.8,52.6c-14.6,16.3-30.2,38.3-56.4,34.8 c0-13.8-7-25.5-8.6-39.7c-14.2-18,15-37.3-3.1-56.1c-20.9-4.7,4.3-33.5-17.2-30.8c-12.9-12.9-31.8-0.4-50.3-0.3 c-23.2,2.2-47.1-28.5-36.8-50.2c-8.2-22.6,26-29.2,26.9-49.1c16.4-13.7,39.7-12,61.9-15.2c-1.6,15.9,15.2,16,27.9,21.3 c7.1-17.2,29.2,2.8,44.3-8.1c5.2-25.4-14.7-10.1-26.1-18.2c-13.8-20.2,29.5-10.4,25-21c-16.8-0.1-7.3-20.7-19.2-9.2 c10.7,1.9-1.9,10.3-1.6,0.7c-16.2-4.7-0.6,18.4-8.8,20.6c-12.5-5.2-6.6,5.9-5.3,7.6c-5.4,11.7-12-17.2-27.3-16.4 c-15.2-13.9-6,6.3,7.2,9.6c-2.8,0.8,1.6,12.3-1.9,7.4c-10.9-15-31.6-25-43.9-6.6c-1.3,17.2-36.3,22.1-30.7,2 c-8.2-20.8,25.4-0.6,22.3-17.2c-21.6-14.3,5.9-9.7,13.2-23.1c16.6,0.5,0.7-13.6,8.5-17.7c-0.8,15.3,12.7,12.4,23.4,9.5 c-2.6-8.8,6.4-8.5,0.9-15.8c24.8-9.9-18.9,4.6-10.1-17.1c-10.7-7.4-4.5,16.3,0,18.8c0.3,7.3-5.9,16.3-14.4,1 c-12.4,8.1-11.1-8.2-11.9-6.5c-1.4-6.3,9.4-6.6,9.5-17.6c-0.9-7-0.7-10.7,4.3-11.1c0.4,1,20.5,1.3,27.6,9.6 c-19.4-3.9-2.9,3.2,5.8,7.2c-9.3-7.3,3.7,0-3.9-8.3c3,0.6-8.3-11.4,3.3-0.9c-6.3-7.5,12.3-5.3,1.3-10.9c16.1,4.5,6.6,0.4-2.9-3.7 c-26.2-15.6,46.3,21.1,16.7,4.8c18.9,4.1-40.4-14.6-13.4-6.4c-10.3-4.5-0.3-2,9,0.9c-16.7-5.2-41.7-14.9-40.7-15.3 c5.8,0.4,11.5,1.7,17,3.3c17.1,5.1-4.9-1.2-0.2-1.1C373.8,44,425.3,83.4,456.6,134.9c7.3,7.7,27.2,58.6,16.8,36 c4.7,18,5.4,37.4,7.9,55.8c-5.2-5.8-11-27.2-16-39.1C463.2,192.2,460.8,181.1,453.1,178.1z"></path> </g>
-                            </svg>
-                    <h3 class="mb-2 text-2xl font-bold dark:text-white">27 countries</h3>
+          
+                    <svg class="w-10 h-10 mb-2 md:w-12 md:h-12" id="fi_9985721" enable-background="new 0 0 512 512"
+                        height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                            <path
+                                d="m256 0c-5.479 0-10.918.172-16.312.511l-213.135 141.826c-16.997 34.246-26.553 72.839-26.553 113.663 0 74.876 32.145 142.244 83.389 189.056 0 0 83.43 57.386 172.611 57.386 119.325 0 243.452-105.057 243.452-246.442 0-167.639-159.5-241.917-159.5-241.917-26.299-9.125-54.547-14.083-83.952-14.083z"
+                                fill="#008cdf"></path>
+                            <path
+                                d="m509.492 220.038-62.062-7.084c0 141.385-114.615 256-256 256-38.613 0-75.211-8.589-108.042-23.898 19.876 18.158 42.626 33.223 67.488 44.434l15.074-.84 19.115 13.392c22.525 6.482 46.324 9.958 70.935 9.958 141.385 0 256-114.615 256-256 0-12.207-.855-24.213-2.508-35.962z"
+                                fill="#0069d0"></path>
+                            <path
+                                d="m364.312 23.969c-7.907-3.696-16.036-7-24.36-9.886l-22.641 19.912c-6.201 5.302-7.684 14.448-3.123 21.532 4.385 6.81 13.25 9.186 20.711 6.035l4.582-1.936c5.627-2.376 12.219-1.516 16.781 2.547 8.062 7.182 6.657 19.875-2.389 25.228l-53.169 31.461c-10.385 6.145-16.981 17.316-16.765 29.381.224 12.532 7.246 22.739 21.358 24.039 29.202 2.69 24.998-28.25 42.15-28.25h58.826c8.954 0 16.719 6.695 17.495 15.616.884 10.164-7.105 18.687-17.085 18.687h-70.54c-27.437 0-51.363 21.143-52.187 48.568-.851 28.378 21.899 51.65 50.086 51.65h7.174c13.682 0 24.774 11.092 24.774 24.774v88.039c0 2.613.459 5.19 1.322 7.595l20.718-.446 64.507-104.905 8.291-60.122 21.03-30.449c.001.001-40.652-143.127-117.546-179.07z"
+                                fill="#98db7c"></path>
+                            <path
+                                d="m509.492 220.038c-12.223-87.035-68.398-160.093-145.18-196.068 51.026 46.798 83.118 114.29 83.118 188.984 0 73.308-30.735 139.338-80.117 186.007 3.027 8.649 11.611 14.654 21.587 13.229 6.363-.909 11.765-5.189 14.935-10.78l61.099-107.736c5.409-9.537 6.802-20.834 3.873-31.4l-4.737-17.087c-1.557-5.615 3.035-11.033 8.829-10.418l3.37.357c9.069.962 18.129-1.901 24.999-7.899z"
+                                fill="#77cc7d"></path>
+                            <path
+                                d="m253.61 22.633-13.922-22.122c-93.636 5.874-173.552 62.027-213.135 141.826l16.132 111.444c1.81 12.509 9.25 23.5 20.191 29.829 6.294 3.64 9.048 11.287 6.521 18.104l-5.508 14.859c-4.956 13.37-.773 28.41 10.373 37.302l14.709 11.735c5.031 4.014 9.055 9.149 11.749 14.995l38.221 82.94 22.34 15.765 15.775-10.756-5.721-23.908c-3.227-13.487-1.498-27.684 4.871-40.002l24.808-47.977c6.833-13.215.561-29.429-13.387-34.605l-20.381-7.564c-6.474-2.402-10.769-8.579-10.769-15.483v-1.591c0-9.122-7.395-16.516-16.516-16.516h-35.431c-8.683 0-17.212-2.281-24.736-6.616l-8.643-4.979c-6.565-3.783-11.031-10.369-12.115-17.868l-.552-3.82c-1.39-9.61 2.964-19.146 11.135-24.393l5.079-3.261c6.153-3.95 14.171-3.385 19.709 1.389l4.527 3.903c5.512 4.752 14.101 1.936 15.729-5.158l4.828-21.037c2.573-11.208 10.789-20.272 21.693-23.929l35.632-11.95c10.176-3.413 14.445-15.472 8.683-24.526l-16.198-25.453c-4.451-6.994-13.397-9.605-20.912-6.103l-13.377 6.235c-6.919 3.226-15.54 1.843-20.21-4.196-6.025-7.79-3.604-18.982 4.896-23.648l33.619-18.458c11.152-6.123 25.129-2.804 32.337 7.679l3.124 4.543c4.619 6.723 12.254 10.738 20.411 10.738h15.128c10.029 0 19.068-6.046 22.897-15.314l9.003-21.791c4.095-9.913 3.123-21.196-2.607-30.262z"
+                                fill="#98db7c"></path>
+                            <path
+                                d="m150.876 489.49c11.008 4.967 22.417 9.163 34.188 12.552l-8.01-33.488c-13.012-.724-25.695-2.408-38.114-5.009z"
+                                fill="#77cc7d"></path>
+                        </g>
+                    </svg>
+
+                    <h3 class="overlock-sc-regular mb-2 text-2xl font-bold dark:text-white">27 countries</h3>
                     <p class="font-light text-gray-500 dark:text-gray-400">Already on-board!</p>
                 </div>
                 <div>
-                    <svg class="w-10 h-10 mb-2 text-blue-medium md:w-12 md:h-12 dark:text-blue-medium" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M12 2L2 7v2h20V7l-10-5zm-9 9v9h3v-6h4v6h4v-6h4v6h3v-9H3zm18 11H3v2h18v-2z" clip-rule="evenodd"/>
-                    </svg>
-                        
-                    <h3 class="mb-2 text-2xl font-bold dark:text-white">111 Institutions</h3>
-                    <p class="font-light text-gray-500 dark:text-gray-400">Are already members of OVA-NET
+
+                    <svg class="w-10 h-10 mb-2 md:w-12 md:h-12 " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                          <linearGradient id="a" x1="416.323" x2="95.677" y1="540.68" y2="82.749" gradientUnits="userSpaceOnUse">
+                            <stop stop-opacity="1" stop-color="#3a77b4" offset="0"/>
+                            <stop stop-opacity="1" stop-color="#2a64ff" offset="1"/>
+                          </linearGradient>
+                          <path fill="url(#a)" fill-rule="evenodd" d="M441.2 187.67v216.82h-54.01V187.67zM37.76 420.49h436.47v11.88H37.76zM8.5 448.37h495v31.27H8.5zM256 32.36l247.5 111.43H8.5zm218.24 127.43v11.88H37.76v-11.88zm-349.43 27.88v216.82H70.8V187.67zm105.46 0v216.82h-54.01V187.67zm105.47 0v216.82h-54.01V187.67z" clip-rule="evenodd" opacity="1" data-original="url(#a)"/>
+                        </g>
+                      </svg>
+                    <h3 class="overlock-sc-regular mb-2 text-2xl font-bold dark:text-white">111 Institutions</h3>
+                    <p class="font-light text-gray-500 dark:text-gray-400">Are already members of OvaNet
                     </p>
                 </div>
                 <div>
-                    <svg class="w-10 h-10 mb-2 text-blue-medium md:w-12 md:h-12 dark:text-blue-medium" xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1">
-                        <path d="M832 384l8 1.6-1.6 8 1.6 3.2-4.8 3.2-44.8 161.6-16-4.8 40-147.2-260.8 144-158.4 284.8-11.2-6.4-6.4 6.4-176-176 11.2-11.2 163.2 163.2 147.2-265.6-294.4-297.6 11.2-11.2v-8h9.6l3.2-3.2 3.2 3.2L664 208l1.6 16-395.2 22.4 278.4 278.4 276.8-153.6 6.4 12.8z" fill="#050D42"/>
-                        <path d="M896 384c0 35.2-28.8 64-64 64s-64-28.8-64-64 28.8-64 64-64 64 28.8 64 64z m-656-32c-62.4 0-112-49.6-112-112s49.6-112 112-112 112 49.6 112 112-49.6 112-112 112z m304 336c-80 0-144-64-144-144s64-144 144-144 144 64 144 144-64 144-144 144z m-224 144c0-35.2 28.8-64 64-64s64 28.8 64 64-28.8 64-64 64-64-28.8-64-64z m-144-176c0-17.6 14.4-32 32-32s32 14.4 32 32-14.4 32-32 32-32-14.4-32-32z m448-440c0-22.4 17.6-40 40-40s40 17.6 40 40-17.6 40-40 40-40-17.6-40-40zM736 560c0-27.2 20.8-48 48-48s48 20.8 48 48-20.8 48-48 48-48-20.8-48-48z" fill="CurrentColor"/>
+                   
+
+                    <svg class="w-10 h-10 mb-2 md:w-12 md:h-12  height=" 200px" width="200px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512.001 512.001" xml:space="preserve" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <circle style="fill:#A9D1E7;" cx="108.003" cy="128" r="40"></circle>
+                            <g>
+                                <path style="fill:#3A77B4;"
+                                    d="M84.001,144c0-22.092,17.909-40,40-40c6.915,0,13.321,1.914,18.996,5.004 C136.219,96.551,123.177,88,108.001,88c-22.092,0-40,17.909-40,40c0,15.175,8.551,28.218,21.003,34.997 C85.916,157.322,84.001,150.916,84.001,144z">
+                                </path>
+                                <circle style="fill:#3A77B4;" cx="315.996" cy="47.998" r="40"></circle>
+                            </g>
+                            <path style="fill:#A9D1E7;"
+                                d="M292.001,64c0-22.092,17.909-40,40-40c6.915,0,13.321,1.914,18.996,5.004 C344.219,16.551,331.177,8,316.001,8c-22.092,0-40,17.909-40,40c0,15.175,8.551,28.218,21.003,34.997 C293.916,77.322,292.001,70.916,292.001,64z">
+                            </path>
+                            <circle style="fill:#F2A7C1;" cx="68.007" cy="415.996" r="40"></circle>
+                            <path style="fill:#D06B8C;"
+                                d="M44.002,432c0-22.092,17.909-40,40-40c6.915,0,13.321,1.914,18.996,5.004 C96.22,384.551,83.177,376,68.002,376c-22.092,0-40,17.909-40,40c0,15.175,8.551,28.218,21.003,34.997 C45.917,445.322,44.002,438.915,44.002,432z">
+                            </path>
+                            <circle style="fill:#A9D1E7;" cx="323.997" cy="464.004" r="40"></circle>
+                            <path style="fill:#3A77B4;"
+                                d="M300.002,480c0-22.092,17.909-40,40-40c6.915,0,13.321,1.914,18.997,5.004 C352.22,432.551,339.178,424,324.002,424c-22.092,0-40,17.909-40,40c0,15.175,8.551,28.218,21.003,34.997 C301.916,493.321,300.002,486.915,300.002,480z">
+                            </path>
+                            <circle style="fill:#A9D1E7;" cx="436.005" cy="231.997" r="24.004"></circle>
+                            <path style="fill:#35DCC3;"
+                                d="M436.001,232c0-8.861,4.857-16.514,12-20.671c-3.543-2.061-7.606-3.329-12-3.329 c-13.255,0-24,10.745-24,24c0,13.255,10.745,24,24,24c4.394,0,8.457-1.267,12-3.329C440.858,248.514,436.001,240.86,436.001,232z">
+                            </path>
+                            <circle style="fill:#F2A7C1;" cx="459.999" cy="72.001" r="24.004"></circle>
+                            <path style="fill:#F4A6A6;"
+                                d="M460.001,72c0-8.861,4.857-16.514,12-20.671c-3.543-2.061-7.606-3.329-12-3.329 c-13.255,0-24,10.745-24,24s10.745,24,24,24c4.394,0,8.457-1.267,12-3.329C464.858,88.514,460.001,80.861,460.001,72z">
+                            </path>
+                            <circle style="fill:#D06B8C;" cx="195.997" cy="464.004" r="24.004"></circle>
+                            <path style="fill:#F9C7B1;"
+                                d="M196.001,463.999c0-8.861,4.857-16.514,12-20.671c-3.543-2.061-7.606-3.329-12-3.329 c-13.255,0-24,10.745-24,24c0,13.255,10.745,24,24,24c4.394,0,8.458-1.267,12-3.329 C200.858,480.514,196.001,472.861,196.001,463.999z">
+                            </path>
+                            <circle style="fill:#D06B8C;" cx="259.997" cy="256.001" r="72.001"></circle>
+                            <path style="fill:#F2A7C1;"
+                                d="M228.001,256.001c0-32.817,21.977-60.451,52-69.126c-6.356-1.836-13.052-2.874-20-2.874 c-39.764,0-72,32.235-72,72c0,39.764,32.235,72,72,72c6.947,0,13.644-1.037,20-2.874 C249.978,316.452,228.001,288.816,228.001,256.001z">
+                            </path>
+                            <g>
+                                <path style="fill:#FFFFFF;"
+                                    d="M211.496,284.003c-3.352-5.796-5.613-12.079-6.72-18.677l7.768-1.304l7.964-1.597l0.046,0.252 c0.79,4.703,2.401,9.183,4.791,13.315L211.496,284.003z">
+                                </path>
+                                <path style="fill:#FFFFFF;"
+                                    d="M220.002,256.001h-16.001c0-30.878,25.468-56,55.642-56v16.001 C237.793,216,220.002,233.944,220.002,256.001z">
+                                </path>
+                                <path style="fill:#FFFFFF;"
+                                    d="M308.001,47.904h-16c0-13.526,10.301-23.903,23.827-23.903v16.001 C311.667,40,308.001,43.742,308.001,47.904z">
+                                </path>
+                                <path style="fill:#FFFFFF;"
+                                    d="M100.002,128.021H84.001c0-13.526,11.246-24.021,23.731-24.021v16.001 C103.571,120.001,100.002,123.859,100.002,128.021z">
+                                </path>
+                                <path style="fill:#FFFFFF;"
+                                    d="M316.001,464.097h-16c0-13.526,10.625-24.098,24.152-24.098V456 C319.991,456,316.001,459.935,316.001,464.097z">
+                                </path>
+                                <path style="fill:#FFFFFF;"
+                                    d="M60.002,416.235H44.001c0-13.526,10.667-24.235,24.193-24.235v16.001 C64.032,408,60.002,412.073,60.002,416.235z">
+                                </path>
+                            </g>
+                            <path
+                                d="M316.001,96c20.436,0,37.919-12.842,44.831-30.875l67.88,13.576C431.802,93.139,444.655,104,460.001,104 c17.645,0,32-14.356,32-32s-14.356-32-32-32c-14.348,0-26.521,9.493-30.568,22.528l-65.468-13.093 c0.014-0.478,0.036-0.953,0.036-1.434C364.002,21.533,342.468,0,316.001,0c-26.468,0-48,21.533-48,48.001 c0,20.365,12.755,37.798,30.691,44.758l-19.738,85.529c-6.08-1.483-12.423-2.288-18.953-2.288c-21.361,0-40.778,8.432-55.14,22.122 l-54.46-47.652c3.57-6.708,5.601-14.355,5.601-22.469c0-26.468-21.533-48.001-48.001-48.001s-48,21.534-48,48.001s21.533,48,48,48 c12.586,0,24.049-4.876,32.618-12.828l53.809,47.083c-9.079,12.975-14.427,28.743-14.427,45.746 c0,16.968,5.326,32.708,14.371,45.668l-93.659,79.25c-8.58-8.005-20.08-12.918-32.712-12.918c-26.468,0-48.001,21.533-48.001,48 s21.533,48.001,48.001,48.001s48-21.533,48-48.001c0-8.073-2.012-15.681-5.547-22.364l94.336-79.824 c14.37,13.729,33.815,22.188,55.211,22.188c6.04,0,11.917-0.695,17.577-1.97l28.486,85.459 c-15.152,6.127-26.478,19.768-29.344,36.283h-49.797C223.284,442.103,210.802,432,196.001,432c-17.645,0-32,14.356-32,32 s14.356,32,32,32c15.105,0,27.789-10.522,31.132-24.62h49.436c3.561,22.976,23.474,40.62,47.431,40.62c26.468,0,48-21.533,48-48.001 s-21.532-48-48-48c-0.743,0-1.482,0.023-2.216,0.056l-29.032-87.096c27.821-12.539,47.247-40.514,47.247-72.96 c0-0.481-0.028-0.955-0.036-1.434l65.469-13.094c4.047,13.035,16.219,22.529,30.567,22.529c17.645,0,32-14.356,32-32 s-14.356-32-32-32c-15.346,0-28.198,10.862-31.287,25.299l-66.635,13.328c-5.412-24.335-21.925-44.529-43.944-54.96l20.241-87.707 C314.916,95.977,315.456,96,316.001,96z M460.001,56.001c8.822,0,16.001,7.177,16.001,16s-7.177,16-16.001,16 C451.178,88,444,80.823,444,72S451.179,56.001,460.001,56.001z M196.001,480c-8.822,0-16-7.177-16-16.001c0-8.822,7.177-16,16-16 c8.823,0,16,7.177,16,16C212.002,472.823,204.824,480,196.001,480z M356.001,463.999c0,17.645-14.356,32-32,32 c-17.646,0-32.001-14.354-32.001-32C292,446.355,306.356,432,324.001,432C341.646,432,356.001,446.355,356.001,463.999z M436.001,216c8.822,0,16.001,7.177,16.001,16c0,8.823-7.177,16-16.001,16c-8.821,0-16-7.177-16-16 C420.002,223.177,427.179,216,436.001,216z M108.001,159.999c-17.645,0-31.999-14.355-31.999-31.999c0-17.646,14.355-32,31.999-32 s32,14.355,32,32C140.001,145.645,125.647,159.999,108.001,159.999z M68.002,448c-17.646,0-32-14.354-32-32 c0-17.645,14.355-31.999,32-31.999c17.645,0,31.999,14.354,31.999,31.999C100.001,433.644,85.646,448,68.002,448z M324.001,256.001 c0,35.29-28.711,64-64,64s-64-28.71-64-64s28.71-64,64-64S324.001,220.71,324.001,256.001z M284.001,48.001 c0-17.646,14.356-32,32-32c17.646,0,32.001,14.355,32.001,32c0,17.645-14.356,31.999-32.001,31.999 C298.357,80,284.001,65.645,284.001,48.001z">
+                            </path>
+                        </g>
                     </svg>
-                    
-                    
-                    <h3 class="mb-2 text-2xl font-bold dark:text-white">Inclusive</h3>
+
+
+                    <h3 class="overlock-sc-regular mb-2 text-2xl font-bold dark:text-white">Inclusive</h3>
                     <p class="font-light text-gray-500 dark:text-gray-400">We want to include small and large centers
                         worldwide!</p>
                 </div>
                 <div>
-                    <svg class="w-10 h-10 mb-2 text-blue-medium md:w-12 md:h-12 dark:text-blue-medium" fill="currentColor"
-                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <!-- <svg class="w-10 h-10 mb-2 text-blue-medium md:w-12 md:h-12 dark:text-blue-medium"
+                        fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd"
                             d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm7.931 8H16.75a17.927 17.927 0 00-1.316-5.022A8.02 8.02 0 0119.931 10zM12 4c.86 1.213 1.998 3.47 2.292 6h-4.584C10.002 7.47 11.14 5.213 12 4zM5.566 15H8.75a17.927 17.927 0 001.316 5.022A8.02 8.02 0 015.566 15zM4.069 10a8.02 8.02 0 014.497-5.022A17.927 17.927 0 007.25 10H4.069zm.313 2h3.181a17.95 17.95 0 001.449 5H6.435a8.038 8.038 0 01-2.053-5zm12.069 5a17.95 17.95 0 001.449-5h3.181a8.038 8.038 0 01-2.053 5h-2.577zm-3.448-5a16.045 16.045 0 01-1.004 5h2.07a16.045 16.045 0 01-1.004-5h2.939a16.045 16.045 0 01-1.004 5h-2.07a16.045 16.045 0 01-1.004-5h2.939zm1.898 7.022A17.927 17.927 0 0015.25 15h3.184a8.02 8.02 0 01-4.497 5.022z"
                             clip-rule="evenodd" />
+                    </svg> -->
+
+                    <svg class="w-10 h-10 mb-2 md:w-12 md:h-12" id="fi_16443447" viewBox="0 0 128 128"
+                        xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                        <path
+                            d="m73.97 5.25-9-5a2.02435 2.02435 0 0 0 -1.94 0l-9 5a1.98612 1.98612 0 0 0 -1.03 1.75v10a1.98626 1.98626 0 0 0 1.03 1.75l9 5a2.00669 2.00669 0 0 0 1.93994 0l9-5a1.98626 1.98626 0 0 0 1.03006-1.75v-10a1.98612 1.98612 0 0 0 -1.03-1.75zm-2.97 10.57-7 3.89-7-3.89v-7.64l7-3.89 7 3.89z"
+                            fill="#2d4356"></path>
+                        <path d="m71 8.18v7.64l-7 3.89-7-3.89v-7.64l7-3.89z" fill="#ffdb80"></path>
+                        <path
+                            d="m73.97 109.25-9-5a2.02435 2.02435 0 0 0 -1.93994 0l-9 5a1.98612 1.98612 0 0 0 -1.03006 1.75v10a1.98626 1.98626 0 0 0 1.03 1.75l9 5a2.00669 2.00669 0 0 0 1.93994 0l9-5a1.98626 1.98626 0 0 0 1.03006-1.75v-10a1.98612 1.98612 0 0 0 -1.03-1.75zm-2.97 10.57-7 3.89-7-3.89v-7.64l7-3.89 7 3.89z"
+                            fill="#2d4356"></path>
+                        <path d="m71 112.18v7.64l-7 3.89-7-3.89v-7.64l7-3.89z" fill="#ffdb80"></path>
+                        <path
+                            d="m28.97 83.25-9-5a2.02435 2.02435 0 0 0 -1.93994 0l-9 5a1.98612 1.98612 0 0 0 -1.03006 1.75v10a1.98626 1.98626 0 0 0 1.03 1.75l9 5a2.00669 2.00669 0 0 0 1.93994 0l9-5a1.98626 1.98626 0 0 0 1.03006-1.75v-10a1.98612 1.98612 0 0 0 -1.03-1.75zm-2.97 10.57-7 3.89-7-3.89v-7.64l7-3.89 7 3.89z"
+                            fill="#2d4356"></path>
+                        <path d="m26 86.18v7.64l-7 3.89-7-3.89v-7.64l7-3.89z" fill="#94e1e4"></path>
+                        <path
+                            d="m118.97 83.25-9-5a2.02435 2.02435 0 0 0 -1.93994 0l-9 5a1.98612 1.98612 0 0 0 -1.03006 1.75v10a1.98626 1.98626 0 0 0 1.03 1.75l9 5a2.00669 2.00669 0 0 0 1.93994 0l9-5a1.98626 1.98626 0 0 0 1.03006-1.75v-10a1.98612 1.98612 0 0 0 -1.03-1.75zm-2.97 10.57-7 3.89-7-3.89v-7.64l7-3.89 7 3.89z"
+                            fill="#2d4356"></path>
+                        <path d="m116 86.18v7.64l-7 3.89-7-3.89v-7.64l7-3.89z" fill="#fc785e"></path>
+                        <path
+                            d="m50.68848 21.16034a5.98659 5.98659 0 0 1 -1.65527-3.66772l-17.04706 10.03881a5.98761 5.98761 0 0 1 1.928 3.50714z"
+                            fill="#2d4356"></path>
+                        <path
+                            d="m28.97 30.25-9-5a2.02435 2.02435 0 0 0 -1.93994 0l-9 5a1.98612 1.98612 0 0 0 -1.03006 1.75v10a1.98626 1.98626 0 0 0 1.03 1.75l9 5a2.00669 2.00669 0 0 0 1.93994 0l9-5a1.98626 1.98626 0 0 0 1.03006-1.75v-10a1.98612 1.98612 0 0 0 -1.03-1.75zm-2.97 10.57-7 3.89-7-3.89v-7.64l7-3.89 7 3.89z"
+                            fill="#2d4356"></path>
+                        <path d="m26 33.18v7.64l-7 3.89-7-3.89v-7.64l7-3.89z" fill="#fc785e"></path>
+                        <path
+                            d="m118.97 30.25-9-5a2.02435 2.02435 0 0 0 -1.93994 0l-9 5a1.98612 1.98612 0 0 0 -1.03006 1.75v10a1.98626 1.98626 0 0 0 1.03 1.75l9 5a2.00669 2.00669 0 0 0 1.93994 0l9-5a1.98626 1.98626 0 0 0 1.03006-1.75v-10a1.98612 1.98612 0 0 0 -1.03-1.75zm-2.97 10.57-7 3.89-7-3.89v-7.64l7-3.89 7 3.89z"
+                            fill="#2d4356"></path>
+                        <path d="m116 33.18v7.64l-7 3.89-7-3.89v-7.64l7-3.89z" fill="#94e1e4"></path>
+                        <path
+                            d="m80.98 53.26-16-9a2.01042 2.01042 0 0 0 -1.96 0l-16 9a1.99288 1.99288 0 0 0 -1.02 1.74v18a1.993 1.993 0 0 0 1.02 1.74l16 9a1.97678 1.97678 0 0 0 1.96 0l16-9a1.993 1.993 0 0 0 1.02-1.74v-18a1.99288 1.99288 0 0 0 -1.02-1.74zm-2.98 18.57-14 7.88-14-7.88v-15.66l14-7.88 14 7.88z"
+                            fill="#2d4356"></path>
+                        <path d="m78 56.17v15.66l-14 7.88-14-7.88v-15.66l14-7.88z" fill="#e1ebf4"></path>
+                        <g fill="#2d4356">
+                            <path
+                                d="m96.01385 27.53143-17.04705-10.03882a5.98659 5.98659 0 0 1 -1.65527 3.66772l16.77435 9.87823a5.98761 5.98761 0 0 1 1.92797-3.50713z">
+                            </path>
+                            <path
+                                d="m111 74.35394v-21.70776a5.82949 5.82949 0 0 1 -4 0v21.70776a5.99332 5.99332 0 0 1 4 0z">
+                            </path>
+                            <path
+                                d="m94.29968 96.83557-16.98816 10.00409a5.98659 5.98659 0 0 1 1.65527 3.66772l17.78921-10.47589a5.98383 5.98383 0 0 1 -2.45632-3.19592z">
+                            </path>
+                            <path
+                                d="m31.244 100.03149 17.7892 10.4759a5.98659 5.98659 0 0 1 1.65527-3.66772l-16.98815-10.00416a5.984 5.984 0 0 1 -2.45632 3.19598z">
+                            </path>
+                            <path
+                                d="m17 52.64618v21.70776a5.99332 5.99332 0 0 1 4 0v-21.70776a5.82949 5.82949 0 0 1 -4 0z">
+                            </path>
+                            <path
+                                d="m66 40.35455v-12.70837a5.82949 5.82949 0 0 1 -4 0v12.70837a5.9858 5.9858 0 0 1 4 0z">
+                            </path>
+                            <path
+                                d="m62 87.64545v12.7085a5.99332 5.99332 0 0 1 4 0v-12.7085a5.81818 5.81818 0 0 1 -4 0z">
+                            </path>
+                            <path
+                                d="m32.28253 80.80719a5.98836 5.98836 0 0 1 1.68127 3.65625l10.72742-6.47424a5.98323 5.98323 0 0 1 -2.41272-3.21484z">
+                            </path>
+                            <path
+                                d="m83.30933 50.01117a5.98211 5.98211 0 0 1 2.41235 3.215l10.666-6.43713a5.99519 5.99519 0 0 1 -2.20245-3.34174z">
+                            </path>
+                            <path
+                                d="m44.88776 49.88226-11.021-6.68939a5.985 5.985 0 0 1 -2.05994 3.4292l10.54242 6.39886a5.98058 5.98058 0 0 1 2.53852-3.13867z">
+                            </path>
+                            <path
+                                d="m95.75983 80.75977-10.00763-6.07428a5.98626 5.98626 0 0 1 -2.35834 3.248l10.64685 6.46228a5.99237 5.99237 0 0 1 1.71912-3.636z">
+                            </path>
+                        </g>
+                        <path d="m26 38.82v2l-7 3.89-7-3.89v-2l7 3.89z" fill="#a54b3f" opacity=".5"></path>
+                        <path d="m71 13.82v2l-7 3.89-7-3.89v-2l7 3.89z" fill="#ad9359" opacity=".45"></path>
+                        <path d="m71 8.18v2l-7-3.89-7 3.89v-2l7-3.89z" fill="#f9edd2" opacity=".5"></path>
+                        <path d="m71 112.18v2l-7-3.89-7 3.89v-2l7-3.89z" fill="#f9edd2" opacity=".5"></path>
+                        <path d="m71 117.82v2l-7 3.89-7-3.89v-2l7 3.89z" fill="#ad9359" opacity=".45"></path>
+                        <path d="m26 86.18v2l-7-3.89-7 3.89v-2l7-3.89z" fill="#f5ffff" opacity=".3"></path>
+                        <path d="m26 91.82v2l-7 3.89-7-3.89v-2l7 3.89z" fill="#426666" opacity=".3"></path>
+                        <path d="m116 86.18v2l-7-3.89-7 3.89v-2l7-3.89z" fill="#f9dbd7" opacity=".3"></path>
+                        <path d="m116 91.82v2l-7 3.89-7-3.89v-2l7 3.89z" fill="#a54b3f" opacity=".5"></path>
+                        <path d="m26 33.18v2l-7-3.89-7 3.89v-2l7-3.89z" fill="#f9dbd7" opacity=".3"></path>
+                        <path d="m116 33.18v2l-7-3.89-7 3.89v-2l7-3.89z" fill="#f5ffff" opacity=".3"></path>
+                        <path d="m116 38.82v2l-7 3.89-7-3.89v-2l7 3.89z" fill="#426666" opacity=".3"></path>
+                        <path d="m78 69.83v2l-14 7.88-14-7.88v-2l14 7.88z" fill="#9fa5aa" opacity=".5"></path>
+                        <path d="m78 56.17v2l-14-7.88-14 7.88v-2l14-7.88z" fill="#fff" opacity=".5"></path>
                     </svg>
-                    <h3 class="mb-2 text-2xl font-bold dark:text-white">Centered communication</h3>
+
+                    <h3 class="overlock-sc-regular mb-2 text-2xl font-bold dark:text-white">Centered communication</h3>
                     <p class="font-light text-gray-500 dark:text-gray-400">Aiming to ensure inclusivity, clear
                         governance, and effective working groups
                     </p>
@@ -301,37 +546,33 @@
         </div>
     </section>
     <!-- End block -->
-   
- 
+
+
     <!-- Start block -->
     <section class="bg-gray-light dark:bg-gray-800">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto text-center">
-                <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-blue-dark dark:text-white">
+                <h2
+                    class="overlock-sc-regular mb-4 text-3xl font-extrabold leading-tight tracking-tight text-blue-dark dark:text-white">
                     It is time to unite all our knowledge, expertise, and experiences!</h2>
                 <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg"></p>
                 <a href="#"
-                    class="text-white bg-pink-light hover:bg-pink-medium focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-pink-light focus:outline-none dark:focus:ring-purple-800">Join OVA-NET</a>
+                    class="overlock-sc-regular text-white bg-pink-light hover:bg-pink-medium focus:ring-4 focus:ring-pink-medium font-lg rounded-lg text-3xl px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-pink-light focus:outline-none dark:focus:ring-purple-800">Join
+                    OvaNet</a>
             </div>
         </div>
     </section>
     <!-- End block -->
     <footer class="bg-white dark:bg-gray-800">
         <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
-          
+
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
             <div class="text-center">
                 <a href="#"
                     class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                    <img src="./images/ovanet_logo.png" class="h-6 mr-3 sm:h-9" alt="OVA-NET Logo" />
-                    <!-- OVA-NET -->
+                    <img src="./images/logo/OvaNet_full_color.svg" class="h-6 mr-3 sm:h-9" alt="OvaNet Logo" />
                 </a>
-                <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© Landing page built with 2021-2022 Landwind™. All
-                    Rights Reserved. Built with <a href="https://flowbite.com"
-                        class="text-blue-medium hover:underline dark:text-blue-medium">Flowbite</a> and <a
-                        href="https://tailwindcss.com"
-                        class="text-blue-dark hover:underline dark:text-blue-medium">Tailwind CSS</a>.
-                </span>
+                <span class="overlock-sc-regular block text-sm text-center text-gray-500 dark:text-gray-400">OvaNet - Consortium of centers specializing in ovarian tissue cryopreservation</span>
                 <ul class="flex justify-center mt-5 space-x-5">
                     <li>
                         <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400">
