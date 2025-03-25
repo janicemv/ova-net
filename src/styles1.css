@@ -1,0 +1,228 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+
+
+:root {
+    --color-blue-light: #A9D1E7;
+    --color-blue-medium: #3A77B4;
+    --color-blue-dark: #192873;
+    --color-pink-light: #F2A7C1;
+    --color-pink-medium: #D06B8C;
+    --color-gray-light: #F2F2F2;
+    --color-gray-medium: #B0B0B0;
+    --color-white: #FFFFFF;
+    --color-coral-light: #F4A6A6;
+    --color-peach-light: #F9C7B1;
+    }
+
+/* Text Colors */
+.text-blue-light {
+    color: var(--color-blue-light);
+  }
+  
+  .text-blue-medium {
+    color: var(--color-blue-medium);
+  }
+  
+  .text-blue-dark {
+    color: var(--color-blue-dark);
+  }
+  
+  .text-pink-light {
+    color: var(--color-pink-light);
+  }
+  
+  .text-pink-medium {
+    color: var(--color-pink-medium);
+  }
+  
+  .text-gray-light {
+    color: var(--color-gray-light);
+  }
+  
+  .text-gray-medium {
+    color: var(--color-gray-medium);
+  }
+  
+  .text-white {
+    color: var(--color-white);
+  }
+  
+  .text-coral-light {
+    color: var(--color-coral-light);
+  }
+  
+  .text-peach-light {
+    color: var(--color-peach-light);
+  }
+  
+  /* Background Colors */
+  .bg-blue-light {
+    background-color: var(--color-blue-light);
+  }
+  
+  .bg-blue-medium {
+    background-color: var(--color-blue-medium);
+  }
+  
+  .bg-blue-dark {
+    background-color: var(--color-blue-dark);
+  }
+  
+  .bg-pink-light {
+    background-color: var(--color-pink-light);
+  }
+  
+  .bg-pink-medium {
+    background-color: var(--color-pink-medium);
+  }
+  
+  .bg-gray-light {
+    background-color: var(--color-gray-light);
+  }
+  
+  .bg-gray-medium {
+    background-color: var(--color-gray-medium);
+  }
+  
+  .bg-white {
+    background-color: var(--color-white);
+  }
+  
+  .bg-coral-light {
+    background-color: var(--color-coral-light);
+  }
+  
+  .bg-peach-light {
+    background-color: var(--color-peach-light);
+  }
+  
+  /* Border Colors */
+  .border-blue-light {
+    background-color: var(--color-blue-light);
+  }
+  
+  .border-blue-medium {
+    background-color: var(--color-blue-medium);
+  }
+  
+  .border-blue-dark {
+    background-color: var(--color-blue-dark);
+  }
+  
+  .border-pink-light {
+    background-color: var(--color-pink-light);
+  }
+  
+  .border-pink-medium {
+    background-color: var(--color-pink-medium);
+  }
+  
+  .border-gray-light {
+    background-color: var(--color-gray-light);
+  }
+  
+  .border-gray-medium {
+    background-color: var(--color-gray-medium);
+  }
+  
+  .border-white {
+    background-color: var(--color-white);
+  }
+  
+  .border-coral-light {
+    background-color: var(--color-coral-light);
+  }
+  
+  .border-peach-light {
+    background-color: var(--color-peach-light);
+  }
+  
+  /*  Fonts  */
+  .vollkorn-sc-regular {
+    font-family: "Vollkorn SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .vollkorn-sc-semibold {
+    font-family: "Vollkorn SC", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .vollkorn-sc-bold {
+    font-family: "Vollkorn SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .vollkorn-sc-black {
+    font-family: "Vollkorn SC", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .overlock-regular {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .overlock-bold {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .overlock-black {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .overlock-regular-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .overlock-bold-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .overlock-black-italic {
+    font-family: "Overlock", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .overlock-sc-regular {
+    font-family: "Overlock SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Images */
+
+  .feat {
+    width: 730px;
+    height: 531px;
+    object-fit: cover;
+  }
+  
+  .hero {
+    width: 650px;
+    height: 508px;
+    object-fit: contain;
+  }
+
+  @layer utilities {
+    .mask-image-radial {
+      -webkit-mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 10%);
+      mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 80%);
+    }
+  }
