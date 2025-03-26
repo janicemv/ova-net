@@ -1,8 +1,10 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* toggle dark mode  */
+@custom-variant dark (&:where(.dark, .dark *)); 
 
+/* My defaults */
 @theme {
     --default-font-family: var(--font-text);
     --font-text: "Overlock", "sans-serif";
@@ -25,4 +27,16 @@
       -webkit-mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 10%);
       mask-image: radial-gradient(circle, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 80%);
     }
+  }
+
+  .feat {
+    width: 730px;
+    height: 531px;
+    object-fit: cover;
+  }
+  
+  .hero {
+    width: 650px;
+    height: 508px;
+    object-fit: contain;
   }
