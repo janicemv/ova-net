@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 /* toggle dark mode  */
 @custom-variant dark (&:where(.dark, .dark *)); 
 
