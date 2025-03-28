@@ -46,3 +46,9 @@ html, body {
     height: 508px;
     object-fit: contain;
   }
+
+  #mc_embed_signup {
+    clear: left;
+    font: 14px;
+    max-width: 600px;
+  }
