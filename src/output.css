@@ -878,11 +878,6 @@
       margin-right: calc(var(--spacing) * 0);
     }
   }
-  .sm\:mr-1 {
-    @media (width >= 40rem) {
-      margin-right: calc(var(--spacing) * 1);
-    }
-  }
   .sm\:mr-2 {
     @media (width >= 40rem) {
       margin-right: calc(var(--spacing) * 2);
@@ -962,12 +957,6 @@
     @media (width >= 40rem) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
-    }
-  }
-  .sm\:text-xs {
-    @media (width >= 40rem) {
-      font-size: var(--text-xs);
-      line-height: var(--tw-leading, var(--text-xs--line-height));
     }
   }
   .md\:mr-1 {
