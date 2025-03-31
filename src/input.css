@@ -48,8 +48,7 @@ html, body {
   }
 
   #mc_embed_signup {
-    clear: left;
+    /* clear: left; */
     font: 14px;
     max-width: 600px;
-    z-index:1;
   }
