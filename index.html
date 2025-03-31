@@ -95,7 +95,8 @@
                         class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu-2" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="https://www.w3.org/2000/svg">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="https://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
                                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                                 clip-rule="evenodd"></path>
@@ -141,7 +142,7 @@
                         </li>
                         <li>
                             <a href="https://airtable.com/appbCQBz5A4stYUPE/pagULYPdrZlPfGMzg/form" target="_blank"
-                                class="block py-2 pl-3 pr-4 text-gray-700 border-b  hover:text-pink-light  border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-dark lg:p-0 dark:text-gray-light lg:dark:hover:text-blue-light hover:font-bold dark:hover:bg-gray-700 lg:dark:hover:bg-transparent">Join
+                                class="block lg:hidden py-2 pl-3 pr-4 text-gray-700 border-b  hover:text-pink-light  border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-dark lg:p-0 dark:text-gray-light lg:dark:hover:text-blue-light hover:font-bold dark:hover:bg-gray-700 lg:dark:hover:bg-transparent">Join
                                 Us</a>
                         </li>
 
@@ -823,12 +824,14 @@
     </section>
     <!-- End block -->
 
+
     <!-- Mailchimp -->
-    <section class="bg-white dark:bg-gray-800 dark:text-gray-light">
+    <section id="newsletter" class="bg-white dark:bg-gray-800 dark:text-gray-light">
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
             <div class="max-w-screen-sm mx-auto text-center">
 
                 <div id="mc_embed_signup">
+                    <!-- To fix: Overflow menu -->
                     <form
                         action="https://ovanet.us15.list-manage.com/subscribe/post?u=99d8ea3c9124ebc095ea5b866&amp;id=c71fa21b21&amp;f_id=00f8a2e1f0"
                         method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -860,14 +863,20 @@
                                     <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button"
                                         value="Subscribe">
                                     <p style="margin: 0px auto;"><a href="https://eepurl.com/jbcwXU"
-                                            title="Mailchimp - email marketing made easy and fun"><span
-                                                style="display: inline-block; background-color: transparent; border-radius: 4px;"><img
-                                                    class="refferal_badge"
+                                            title="Mailchimp - email marketing made easy and fun">
+                                            <span
+                                                style="display: inline-block; background-color: transparent; border-radius: 4px;">
+                                                <img class="refferal_badge"
                                                     src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
                                                     alt="Intuit Mailchimp"
-                                                    style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a>
+                                                    style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;">
+                                                 
+                                            </span>
+                                        </a>
                                     </p>
+
                                 </div>
+
                             </div>
                         </div>
                     </form>
@@ -875,7 +884,8 @@
                 <script type="text/javascript"
                     src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
                 <script
-                    type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'COMPANY'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+                    type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; fnames[6] = 'COMPANY'; ftypes[6] = 'text'; }(jQuery)); var $mcj = jQuery.noConflict(true);
+                </script>
             </div>
         </div>
     </section>

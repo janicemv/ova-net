@@ -51,4 +51,5 @@ html, body {
     clear: left;
     font: 14px;
     max-width: 600px;
+    z-index:1;
   }
